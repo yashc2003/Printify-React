@@ -1,0 +1,26 @@
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    margin-left: 110px;
+}
+.info-card{
+    display: flex;
+column-gap: 100px;
+}
+.card-img1{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.card-heading{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.img-info{
+    width: 330px;
+    margin-left: 20px;
+}
