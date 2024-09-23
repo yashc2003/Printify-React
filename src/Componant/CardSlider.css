@@ -11,7 +11,7 @@
     font-size: 44px;
     font-weight: bold;
     color: #2a2929;
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 240px;
     width: 400px;
 }
@@ -22,3 +22,46 @@
     color: #828080;
 }
 
+.slider-container{
+    width: 1200px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.card-content6{
+    
+}
+.card6{
+    height: 200px;
+    grid-column: 30px;
+}
+@media screen and (max-width: 991px) {
+    .text-box{
+        display: flex;
+    }
+    
+    .bolt-text{
+        font-size: 24px;
+        font-weight: bold;
+        color: #2a2929;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 100px;
+    }
+    .side-para{
+        margin-left: 70px;
+        width: 160px;
+        margin-top: 30px;
+        color: #828080;
+    }
+    
+    .slider-container{
+        width: 700px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .card6{
+        height: 200px;
+        grid-column: 10px;
+    } 
+}

@@ -22,15 +22,15 @@ function banner () {
 <h2 className="subtitle5">Connect your store</h2>
 <p className='small-letter'>Printify easily integrates with major e-commerce platforms and marketplaces</p>
 <div className="integrations">
-  <img src={img3} alt="BigCommerce" />
-  <img src={img2} alt="Squarespace" />
-  <img src={img1}alt="Wix" />
-  <img src={img4} alt="API" />
-  <img src={img5} alt="Puffin" />
-  <img src={img9} alt="Printify" />
-  <img src={img6} alt="Etsy" />
-  <img src={img7} alt="Shopify" />
-  <img src={img8} alt="WooCommerce" />
+  <img style={{position:'absolute', margin:'100px 500px'}} src={img3} alt="BigCommerce" />
+  <img style={{position:'absolute', margin:'60px 800px'}} src={img2} alt="Squarespace" />
+  <img style={{position:'absolute', margin:'100px 1000px'}} src={img1}alt="Wix" />
+  <img style={{position:'absolute', margin:'270px 950px'}} src={img4} alt="API" />
+  <img style={{position:'absolute', margin:'400px 500px'}} src={img5} alt="Puffin" />
+  <img style={{position:'absolute', margin:'200px 700px'}} className='bg-success ' src={img9} alt="Printify" />
+  <img style={{position:'absolute', margin:'400px 900px'}} src={img6} alt="Etsy" />
+  <img style={{position:'absolute', margin:'460px 700px'}} src={img7} alt="Shopify" />
+  <img style={{position:'absolute', margin:'300px 400px', height:'60px', width:"60px"}} src={img8} alt="WooCommerce" />
 </div>
 </section>
 
@@ -41,7 +41,7 @@ function banner () {
         <div>
             <img className='talk-img' src={Talk}/> 
             </div>
-            <button className='btn4'>Talk to sales</button>
+            <button  className='btn4'>Talk to sales</button>
         
         
      </div>

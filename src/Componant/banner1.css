@@ -1,6 +1,5 @@
 .container0{
-    display: grid;
-    grid-template-columns: auto auto;
+    display:flex;
     margin-left: 180px;
     margin-top: 0px;
 }
@@ -20,12 +19,65 @@
 }
 
 .tshart-card{
-    display:flex;
+    
     height: 300px;
     width: 250px;
     border-style: solid;
     border-color: rgb(239, 240, 241);
     border-radius: 10px;
     margin-top: 200px;
+    margin-left: 80px;
+}
+.female-logo{
+    height: 400px;
+    margin-top: 300px;
+}
+.carousel{
+   height: 300px; 
+   width: 250px;
+    margin-top: 190px;
+    margin-left: 100px;
+}
+.d-block{
+    height: 300px;
+    width: 250px;
+}
+
+@media screen and (max-width: 991px) {
+.container0{
+    display: grid;
+    margin-left: 70px;
+    
+}
+.heading{
+    width: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 140px;
+    
+}
+.next-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
     margin-left: 3px;
+    
+}
+
+
+.female-logo{
+    height: 300px;
+    margin-top: 0;
+    margin-left: 100px;
+}
+.carousel{
+   height: 230px; 
+   width: 200px;
+    margin-top: 10px;
+    margin-left: 00px;
+}
+.d-block{
+    height: 230px;
+    width: 200px;
+}
 }

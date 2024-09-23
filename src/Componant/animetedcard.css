@@ -1,0 +1,161 @@
+/* Card.css */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e2c39;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    height: 550px;
+    margin-left: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-content {
+    text-align: left;
+    flex: 1;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+  
+  .profit-calculation {
+    background-color: #2a3e4f;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .calculation-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .profit {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .start-selling {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-selling:hover {
+    background-color: #388e3c;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+  }
+  
+  .card-image {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-image img {
+    max-width: 900px;
+    border-radius: 27px;
+    height: 600px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #1e2c39;
+      color: #fff;
+      border-radius: 10px;
+      max-height: 1000px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      height: 950px;
+      margin-left: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-content {
+      text-align: left;
+      flex: 1;
+    }
+    
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+    
+    .profit-calculation {
+      background-color: #2a3e4f;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    
+    .calculation-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .profit {
+      color: #4caf50;
+      font-weight: bold;
+    }
+    
+    .start-selling {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .start-selling:hover {
+      background-color: #388e3c;
+    }
+    
+    .footer-text {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+    
+    .card-image {
+      margin-top: 20px;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card-image img {
+      max-width: 400px;
+      border-radius: 27px;
+      height: 500px;
+      margin-bottom: 70px;
+      margin-left: 50px;
+    }
+  }
+

@@ -106,8 +106,13 @@ const Footer = () => {
             <li><a href="#">WooCommerce</a></li>
           </ul>
         </div>
-      
-       
+        </div>
+        <div className="bottum-link">
+            <a className="link" href="#">Intellectual Property Policy</a>
+            <a className="link" href="#">Terms of Service</a>
+            <a className="link" href="#">Privacy Policy</a>
+            <a className="link" href="#">Security</a>
+          <p className="mt-3">© 2024 Printify, Inc. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -7,7 +7,7 @@ import Product2 from '../Componant/ProductBanner2';
 import Banner3 from '../Componant/banner3'
 import Footer from '../Componant/footer';
 import Slider from '../Componant/CardSlider';
-
+import Animetedcard from '../Componant/animetedcard'
 function HomePage () {
     return (
         <div>
@@ -18,13 +18,9 @@ function HomePage () {
         <Product2/>     
         <Banner3/>
         <Slider/>
+        <Animetedcard/>
         <Footer/>
-
-        <div className="App">
-      <h1 style={{ textAlign: "center" }}>Testimonials</h1>
-      <Slider />
-    </div>
-     </div>
+</div>
     )
 };
 

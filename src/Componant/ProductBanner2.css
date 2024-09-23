@@ -29,3 +29,36 @@ column-gap: 100px;
     color: #048613;
     font-size: 20px;
 }
+@media screen and (max-width: 991px) {
+    .container2{
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+    .info-card{
+        
+    column-gap: 10px;
+    }
+    .card-img1{
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .card-heading{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .img-info{
+        width: 120px;
+        margin-left: 20px;
+    }
+    .subtitle{
+        margin-left: 40px;
+        color: #048613;
+        font-size: 20px;
+    }
+}

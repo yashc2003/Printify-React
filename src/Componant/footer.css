@@ -70,7 +70,21 @@
   .footer-social a:hover {
     color: #27ae60;
   }
-  
+
+  .bottum-link{
+     text-align: center;
+     margin-top: 40px;
+     
+    
+  }
+  .link{
+    margin-right: 50px;
+    color: hsl(0, 0%, 48%);
+  }
+  .link:hover{
+    margin-right: 50px;
+    color: #45b951;
+  }
   @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;
